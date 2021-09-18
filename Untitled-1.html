@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Документ HTML5</title>
+        
+        <style>
+            td                                                   /* Таблица*/
+            { 
+                width: 45px;
+                height: 35px;
+                border: solid 1px silver ;
+                text-align:center;
+               bottom: -200px;
+            
+            }
+               
+            #leftSidebar 
+            {
+                background-color: white;
+                float: left;  
+            }
+
+            #nach                                                 /*фигура */
+            {
+                width: 80px;
+                height: 80px;
+                border: 4px solid white;
+                border-top-left-radius: 15px;   
+                border-bottom-right-radius: 15px;   
+                float:left; 
+                margin-left: 20px; 
+                margin-right: 20px;
+            }
+
+            #rightSidebar
+            {
+                background-color: white;
+                float: right;
+            }
+
+            #main                                                   /*Основное*/
+            {
+                background-color: blue;
+                height: 710px;
+                width: 500px;
+                align-self: center;
+                margin-left: 500px;
+                margin-right: 400px;
+                color:white; 
+                font-family:Arial, Helvetica, sans-serif;
+            }
+
+            #footer
+            { 
+                background-color: green;
+                height: 30px;
+                text-align:center; 
+                color: white; 
+                font-family:Arial, Helvetica, sans-serif; 
+            }
+
+            #header
+            { 
+                background-color: green;
+                height: 30px;
+                text-align:center;
+                color: white; 
+                font-family: Courier; 
+                font-size: 16px;
+                
+               
+                
+
+            }
+
+            #imgg[href="www.csd.tsu.ru"]          /* ssылка */
+            {
+                color: red;
+                text-align: center;
+                margin-left: 20px; 
+                margin-right: 20px;
+            }
+          #osntext                                   /*основной текст*/
+          {
+            margin-left: 20px; 
+            margin-right: 20px;
+          }
+           #zagl                                 /*Заголовок */
+           {
+            font-size: 30px; 
+            margin-left: 20px; 
+            margin-right: 20px;
+
+           }
+
+           
+
+        </style>
+
+        
+    </head>
+    <body>
+
+       <div id="header"> 
+           Hello, Header!
+        </div>
+
+       <div id="leftSidebar"></div>
+
+        <div id="rightSidebar"></div>
+
+        <div id="main">
+            
+        <div id="zagl"><b>Hello, content!  </b> </div>
+        
+            <p>   </p>
+
+           <div id="nach"></div>
+
+           <div id="osntext">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+
+            
+          <p></p>
+
+           <a class="imgg" style=" color: red; text-align: center; margin-left: 190px; " href="www.csd.tsu.ru" ><span >www.csd.tsu.ru</span></a>             
+             
+            <h1><b style="margin-left: 20px; margin-right: 20px;"><span style="color: red;"> Here </span> is the list</b></h1>
+              
+            <ul style="list-style-type:disc;">
+                <li>Value 1</li>
+                <li style="color: rgb(128, 219, 255);">V a l u e 2</li>
+                <li>Value 3</li>
+             </ul> 
+            
+             <table style="border: 1px solid white; float: right;">
+                 <tr>
+                    <td rowspan="2" style="background-color:green; ">1</td>
+                    <td>2</td>
+                    <td>3</td>
+                 </tr>
+                 <tr>
+                    <td>4</td>
+                    <td>5</td>
+                 </tr>
+                 <tr>
+                    <td>6</td>
+                    <td colspan="2" style="background-color:red;">7</td>
+                 </tr>
+             </table>
+
+             <p style="font-size: 18px; margin-left: 20px; margin-right: 20px;"><b> Here are some visual styles:</b></p>
+            
+             <p style="margin-left: 20px; margin-right: 20px;"> <i> Italic</i></p>
+
+             <p style="margin-left: 20px; margin-right: 20px;"><b> Bold  </b></p>
+
+             <img src="images.png" alt="Лайк" style="float: right;"/>
+             
+             <p style="margin-left: 20px; margin-right: 20px;"><u> UnderLined </u> </p> 
+
+             <p style="margin-left: 20px; margin-right: 20px;"><del> Line through  </del></p> 
+        
+        </div>
+
+        <div id="footer">
+             Hello, Footer!
+        </div> 
+        
+        
+            
+
+    </body>
+</html>
